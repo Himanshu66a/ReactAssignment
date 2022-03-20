@@ -1,0 +1,130 @@
+.body{
+    /* Created with https://www.css-gradient.com */
+background: #5545CF;
+background: -webkit-linear-gradient(bottom left, #5545CF, #BD891C);
+background: -moz-linear-gradient(bottom left, #5545CF, #BD891C);
+background: linear-gradient(to top right, #5545CF, #BD891C);
+
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #6f4c4c; */
+    background-color: #4f324b;
+    color: white;
+}
+
+.box{
+    padding: 0;
+    text-align: center;
+    background-color: #4f324b;
+    margin-bottom: 30px;
+}
+.box button{
+    height: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.box button:hover{
+    background-color: white;
+    color: black;
+}
+
+.box p{
+    text-decoration: underline;
+    color: white;
+    margin: 0;
+}
+
+.movie-conatiner{
+    margin-top: 3%;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.poster{
+    height:200px;
+    width: 200px;
+}
+.details-box{
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2% 10%;
+    background-color: #4f324b;
+    color: white;
+}
+.details-box img{
+    margin-left: 2%;
+    margin-top: 1%;
+    height:250px;
+    width:200px
+}
+.Details{
+    margin-left: 2%;
+}
+.Details p {
+    margin: 0;
+    margin-bottom: 1%;
+}
+.book{
+    margin-left: 10%;
+    margin-top: 0;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: #833f7d;
+    border-radius: 10px;
+}
+.book:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.input-form{
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 25%;
+    min-height: 300px;
+    width: 30%;
+    /* width: 100%;
+    height: 100px; */
+    background-color: #833f7d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.input-form input{
+    width: 40%;
+    margin-bottom: 4%;
+}
+#book-btn{
+    color: white;
+}
+
+.done{
+    width: fit-content;
+    background-color: #833f7d;
+    font-size: 4rem;
+    color: white;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media (max-width:700px) {
+    .details-box{
+        flex-direction: column;
+    }
+
+}
